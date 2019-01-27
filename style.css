@@ -1,5 +1,7 @@
 body {
   background-color: White;
+  text-align: center;
+  font-family: Helvetica;
 }
 .menu{
   background-image: url("resources/the-flatiron-building.png");
@@ -8,14 +10,27 @@ body {
   background-size: contain;
 }
 #title {
-  font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: White;
   text-align: center;
 }
 a {
-  font-family: Helvetica;
   font-size: 18px;
   color: White;
+}
+.footer {
+  text-align: left;
+  color: White;
+  background-color: dimgray;
+  font-size: 11px;
+ #footer_menu {
+  display: inline-block;
+ }
+ p {
+   font-size: 14px
+ }
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
