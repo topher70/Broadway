@@ -6,13 +6,13 @@ body {
 .menu{
   background-image: url("resources/the-flatiron-building.png");
   background-position: center;
+  background-size: cover;
   text-align: center;
-  background-size: contain;
+  color: White;
 }
 #title {
   font-size: 70px;
   font-weight: bold;
-  color: White;
   text-align: center;
 }
 a {
@@ -33,4 +33,9 @@ a {
 h3 {
   font-size: 23px;
   font-weight: bold;
+}
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+  color: White;
 }
