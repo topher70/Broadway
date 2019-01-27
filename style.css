@@ -3,12 +3,13 @@ body {
   text-align: center;
   font-family: Helvetica;
 }
-.menu{
+.menu {
   background-image: url("resources/the-flatiron-building.png");
   background-position: center;
   background-size: cover;
   text-align: center;
   color: White;
+  font-size: 18px;
 }
 #title {
   font-size: 70px;
@@ -24,8 +25,7 @@ a {
   color: White;
   background-color: dimgray;
   font-size: 11px;
- #footer_menu {
-  display: inline-block;
+  white-space: nowrap;
  }
  p {
    font-size: 14px
